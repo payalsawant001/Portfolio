@@ -1,0 +1,513 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+html {
+    scroll-behavior: smooth;
+ }
+ /* Roko jaraaaaa */
+/* Global styles */
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header and Navbar */
+  header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2%;
+    height: 5rem;
+    background-color: #fff;
+    box-shadow: 0 1px 4px rgba(146,161,176,.3);
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-brand img {
+    height: 40px;
+  }
+  
+  #sp1 {
+    font-family: "DM Serif Display", serif;
+  }
+  
+  #sp2 {
+    color: #28A745;
+  }
+  
+  /* Navbar layout */
+  .navbar-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar-nav li {
+    list-style: none;
+    margin-left: 15px;
+  }
+  
+  /* Navbar link styling */
+  .nav-link {
+    text-decoration: none;
+    color: black;
+    display: block;  /* Ensures the link spans the full button area */
+    padding: 10px;
+  }
+  
+  /* Button styles */
+  .custom {
+    padding: 10px 25px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100px;
+    color: #28A745;
+    background-color: #fff;
+    border: 2px solid #ebf9ee;
+    border-radius: 5px;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 500;
+    cursor: pointer;
+    margin: 0 10px;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / .8);
+  }
+  
+  .custom:hover {
+    background: #28A745;
+    background: linear-gradient(0deg, #28A745 0%, rgb(92, 220, 128) 100%);
+    color: black; /* Text color on hover */
+    border: #28A745;
+  }
+  .navbar-content {
+    display: flex;
+    justify-content: flex-end; /* Align items to the right */
+    flex-grow: 1;
+    align-items: center;
+    gap: 15px; /* Add spacing between buttons */
+  }
+  
+  .navbar-nav {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    list-style: none; /* Remove list styling */
+  }
+  
+  .navbar-nav li {
+    margin: 0; /* Remove default margin if needed */
+  }
+  
+  .navbar-nav li:last-child {
+    margin-right: 0; /* Ensure no extra margin on the last button */
+  }
+  #navbarSupportedContent {
+
+    display: flex;
+    justify-content: flex-end;
+    border-color: #28A745;
+  }
+
+ /* Roko jaraaaaa */
+.bt1 {
+    width: 80px;
+    height: 40px;
+    background-color: #6674CC;
+    color: aliceblue;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+}
+.div2 {
+    padding: 50px;
+    margin-left: 100px;
+    margin-top: 130px; 
+    display: flex;
+    display: inline-block;
+    justify-content: space-evenly;
+    align-self: center;
+}
+.cl1 {
+    margin-top: 20px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cl2 {
+    margin-top: 15px;
+    font-family: "DM Serif Display", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.cl3 {
+    margin-top: 15px;
+}
+.cl4 {
+    margin-top: 15px;
+}
+.divv {
+    margin-top: 15px;
+}
+
+.custom1 {
+    padding : 10px 25px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;            /* Centers text vertically */
+    justify-content: center;         /* Centers text horizontally */
+    height: 40px;                    /* Adjust height as needed */
+    width: 150px;                    /* Adjust width as needed */
+    color: #28A745;                  /* Text color */
+    background-color: #fff;          /* White background */
+    border: 2px solid #ebf9ee;       /* Border color */
+    border-radius: 5px;              /* Rounded corners */
+    font-family: 'DM Serif Display', sans-serif; /* Font style */
+    font-weight: 500;                /* Font weight */
+    text-decoration: none;           /* Removes underline if button is a link */
+    cursor: pointer;    
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / .8);
+}
+.custom1:hover {
+        background: #28A745;
+        background: linear-gradient(0deg, #28A745 0%, rgb(92, 220, 128) 100%);
+        color: black; /* Text color on hover */
+        border: #28A745;
+}
+.tag, #a1 {
+    font-family: 'DM Serif Display', sans-serif; /* Font style */
+    font-weight: 500;       
+}
+
+/* about section starts*/
+
+#about {
+    padding-left: 100px;
+}
+#a1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.content {
+    padding-top: 45px;
+}
+.resumebtn {
+    padding : 10px 25px;
+    text-align: center;
+    display: inline-flex;
+    align-items: center;            /* Centers text vertically */
+    justify-content: center;         /* Centers text horizontally */
+    height: 40px;                    /* Adjust height as needed */
+    width: 150px;                    /* Adjust width as needed */
+    color: #28A745;                  /* Text color */
+    background-color: #fff;          /* White background */
+    border: 2px solid #ebf9ee;       /* Border color */
+    border-radius: 5px;              /* Rounded corners */
+    font-family: 'DM Serif Display', sans-serif; /* Font style */
+    font-weight: 500;                /* Font weight */
+    text-decoration: none;           /* Removes underline if button is a link */
+    cursor: pointer;    
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / .8);
+}
+.resumebtn:hover {
+    background: #28A745;
+    background: linear-gradient(0deg, #113f67 0%, 	#113f67 100%);
+    color: whitesmoke; /* Text color on hover */
+    border-color: #113f67;
+}
+/* .div5 {
+    display: inline-block;
+    padding: 20px;
+    padding-bottom: 20px;
+    
+}
+#div5 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+} */
+/* Make .div5 elements inline-block and ensure proper alignment */
+.div5 {
+    display: inline-block;            /* Align divs horizontally */
+    vertical-align: top;             /* Align at the top of each line */
+    padding: 20px;                   /* Maintain padding */
+    width: 48%;                      /* Each div takes about half the width */
+    box-sizing: border-box;          /* Ensure padding is included in width */
+}
+
+/* Add spacing between .div5 elements */
+.content {
+    /* text-align: center;              Center align the content inside */
+    width: 100%;                     /* Ensure full container width */
+    display: block;                  /* Ensure proper block layout for content */
+}
+
+/* Specific adjustment for the second .div5 */
+#div5 img {
+    display: block;
+    max-width: 100%;                 /* Ensure image does not overflow */
+    height: auto;                    /* Maintain aspect ratio */
+}
+
+/* about section ends */
+
+/* skills section starts*/
+/* Skills Section Styles */
+.container {
+  text-align: center; /* Centers the content horizontally */
+  display: flex; /* Enables a flexible layout */
+  flex-wrap: wrap; /* Allows items to wrap to the next row */
+  justify-content: space-between; /* Evenly spaces boxes with equal gaps */
+  gap: 20px; /* Adds spacing between items */
+  padding: 10px; /* Ensures content doesn’t touch the edges of the container */
+}
+
+.skill-box {
+  flex: 1 1 calc(25% - 40px); /* Ensures four boxes per row, considering gaps */
+  max-width: calc(25% - 40px); /* Limits width to ensure alignment */
+  text-align: center; /* Centers content inside each box */
+  color: black; /* Sets text color */
+  padding: 15px; /* Internal spacing within each box */
+  box-sizing: border-box; /* Includes padding and border in width/height */
+  /* background-color: #f5f9ee; Optional background color */
+  border: 1px solid white; /* Optional border */
+  border-radius: 8px; /* Adds rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation for hover */
+}
+
+.skill-box:hover {
+  transform: scale(1.05); /* Enlarges box slightly on hover */
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2); /* Enhances shadow on hover */
+}
+
+/* Ensure images are responsive */
+.skill-box .img img {
+  max-width: 100%; /* Prevents images from exceeding box width */
+  height: auto; /* Maintains aspect ratio */
+  /* border-radius: 50%; Optional: Makes images circular */
+}
+
+/* Section Heading */
+#a5 {
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 500; 
+  text-align: center; /* Centers heading */
+  padding: 25px 0; /* Adjusts spacing above and below heading */
+}
+
+/* skills section end */
+/* project section start */
+/* General Projects Section Styling */
+.projects {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.projects .heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 500; 
+}
+
+.projects .heading i {
+  color: black;
+  margin-right: 10px;
+}
+
+/* Grid Container */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Individual Project Box */
+.project-box {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 30px;
+}
+
+.project-box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Project Title */
+.project-box h3 {
+  font-size: 1.5rem;
+  color: black;
+  margin-bottom: 10px;
+  font-family: 'DM Serif Display', sans-serif;
+  font-weight: 500; 
+}
+
+/* Project Description */
+.project-box p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+/* Technologies Styling */
+.project-box p strong {
+  color: #333;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .projects-container {
+    grid-template-columns: 1fr; /* Single column on smaller devices */
+  }
+
+  .projects .heading {
+    font-size: 2rem;
+  }
+}
+
+/* #want1 {
+  margin: 15px;
+} */
+
+/* Projects Section Styling */
+#projects {
+    padding: 50px 0;
+  }
+  
+/* project section end */
+/* contact section start */
+/* General Section Styling */
+.contact {
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.contact .heading {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.contact .heading i {
+  color: black;
+  margin-right: 10px;
+}
+
+.contact .heading span {
+  color: #28A745;
+}
+
+/* Container Styling */
+.contact .container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+.contact form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact .field {
+  position: relative;
+}
+
+.contact .field input,
+.contact .message textarea {
+  width: 100%;
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.contact .field input:focus,
+.contact .message textarea:focus {
+  border-color: #007bff;
+}
+
+.contact .field i {
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #aaa;
+}
+
+/* Textarea Styling */
+.contact .message textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+/* Button Styling */
+.contact .button-area button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #28A745;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-family: 'DM Serif Display', sans-serif; /* Font style */
+  font-weight: 500;  
+}
+
+.contact .button-area button:hover {
+  background-color: #0056b3;
+}
+
+.contact .button-area button i {
+  margin-left: 8px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .contact .container {
+    padding: 15px;
+  }
+  
+  .contact .heading {
+    font-size: 2rem;
+  }
+}
+
+/* contact section end */
