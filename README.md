@@ -44,7 +44,7 @@ This portfolio is the digital representation of my work, featuring my **skills**
 
 ## 🚀 **How to View the Website**
 
-To view my website, just click [here](your-live-website-link) 🔗.
+To view my website, just click [here](https://portfolio-payalsawant.netlify.app/) 🔗.
 
 ---
 
