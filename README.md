@@ -48,6 +48,12 @@ To view my website, just click [here](your-live-website-link) 🔗.
 
 ---
 
+## 🙏 **Thanks for Visiting!** 🙏
+Feel free to fork ⭐, star 🌟, or contribute 👩‍💻 if you find it interesting.
+Looking forward to your feedback and collaboration opportunities! 🚀
+
+---
+
 ## 🔧 **How to Run Locally**:
 
 To get started with the project locally, clone the repository and follow these steps:
@@ -62,6 +68,5 @@ cd your-portfolio
 # Open the index.html file in your browser
 open index.html
 
----
-##  **🙏 Thanks for visiting my GitHub Portfolio! 🙏**
-Feel free to fork ⭐, star 🌟, or contribute 👩‍💻 if you find it interesting. Looking forward to your feedback and collaboration opportunities! 🚀
+
+
