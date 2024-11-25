@@ -54,7 +54,7 @@ To get started with the project locally, clone the repository and follow these s
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/your-portfolio.git
+git clone https://github.com/payalsawant001/Portfolio.git
 
 # Navigate into the project directory
 cd your-portfolio
@@ -62,6 +62,6 @@ cd your-portfolio
 # Open the index.html file in your browser
 open index.html
 
-
-🙏 Thanks for visiting my GitHub Portfolio! 🙏
+---
+##  **🙏 Thanks for visiting my GitHub Portfolio! 🙏**
 Feel free to fork ⭐, star 🌟, or contribute 👩‍💻 if you find it interesting. Looking forward to your feedback and collaboration opportunities! 🚀
